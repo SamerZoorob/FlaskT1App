@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/about.js') }}"></script>
+    {% block head %}{% endblock %} <!--template inheritance: Creating one master to inherit in each other pages so we don't write everything over and over again-->
+</head>
+<body>
+    {% block body %}{% endblock %} <!--this block is where we insert our code from other template-->
+
+</body>
+</html>

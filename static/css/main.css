@@ -1,0 +1,27 @@
+h1,h4{
+    text-align: center;
+}
+
+#content{
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+table{
+  border-color: black;
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  th, td {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid;
+  text-align: center;
+}
+form{
+    text-align: center;
+}
